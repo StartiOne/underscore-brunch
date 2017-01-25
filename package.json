@@ -8,17 +8,14 @@
     "type": "git",
     "url": "git@github.com:trojanowski/underscore-brunch.git"
   },
-  "main": "./lib/index",
+  "main": "./src/index",
   "scripts": {
-    "prepublish": "coffee -o lib/ src/",
-    "postinstall": "node setup.js postinstall",
     "test": "node setup.js test"
   },  
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9 || 4.x || 5.x || 6.x || 7.x"
   },
   "dependencies": {
-    "coffee-script": "1.3.3",
     "underscore": "1.4.2"
   },
   "devDependencies": {
